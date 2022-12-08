@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+  }
+  
+  section {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+  }
+  
+  th, td {
+    border: 1px solid black;
+    margin: 8px;
+    padding: 4px;
+  }
+  
+  .table-1 {
+    background-color: coral;
+    padding: 2px;
+    text-align: center;
+  }
+  
+  .table-2 {
+    background-color:lightblue;
+    padding: 2px;
+    text-align: center;
+  }
+  
+  .table-3 {
+    background-color:lightpink;
+    padding: 2px;
+    text-align: center;
+  }
+  
+  .table-4 {
+    background-color:beige;
+    padding: 2px;
+    text-align: left;
+  }
+
+  table {
+    border: 1px solid black;
+    height: 250px;
+  }
+
